@@ -3,6 +3,7 @@ package us.marek.ds
 import org.scalatest.fixture
 import java.util.EmptyStackException
 
+// Here I'm using FunSpec, in FindMedianTestSuite I'll use FlatSpec
 class MaxStackTestSuite extends fixture.FunSpec {
   
   type FixtureParam = MaxStack[Int]
